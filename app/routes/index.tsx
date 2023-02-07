@@ -1,4 +1,5 @@
 import { WorksList } from "@/components/works-list";
+import { Socials } from "@/components/socials";
 
 const works = [
   {
@@ -28,7 +29,7 @@ const works = [
 export default function Index() {
   return (
     <>
-      <div className={""}>
+      <div className={"mb-8"}>
         <h2 className={"text-md mb-3.5 font-title font-bold tracking-wider"}>
           A few words about me
         </h2>
@@ -41,11 +42,11 @@ export default function Index() {
           I worked the past couple of years at Hostnfly as a Lead Frontend
           Developer
         </p>
-        <p className={"mt-4 font-bold tracking-wide text-gold-300"}>
-          I am now CTO at Fractible.io
+        <p className={"mt-4 tracking-wide text-gold-300"}>
+          I am now CTO at fractible.io
         </p>
       </div>
-
+      <Socials />
       {/* Experiences */}
       <div className={"mt-20"}>
         <h3 className={"mb-10 font-title text-xl font-bold"}>
