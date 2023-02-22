@@ -7,7 +7,7 @@ const socials = [
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/david-venin-51481066/",
+    url: "https://www.linkedin.com/in/david-venin/",
   },
   {
     name: "twitter",

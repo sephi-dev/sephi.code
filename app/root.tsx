@@ -13,7 +13,7 @@ import i18next from "@/i18next.server";
 import { json } from "@remix-run/node";
 import { useEffect } from "react";
 
-import styles from "@/glossy/app.css";
+import styles from "@/glossy/global.css";
 
 export const links: LinksFunction = () => [{ rel: "stylesheet", href: styles }];
 
@@ -49,7 +49,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className={"bg-zinc-800 text-light"}>
+      <body className={"bg-[#08091b] text-light"}>
         <div className={"mx-auto w-full px-4 py-20 md:w-[740px]"}>
           <Outlet />
         </div>

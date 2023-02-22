@@ -3,7 +3,7 @@ import { Socials } from "@/components/socials";
 
 const works = [
   {
-    title: "Lead Front at Hostnfly for 4 years",
+    title: "Lead Front at Hostnfly for 5 years",
     tasks: [
       "Mentoring with two or three senior and junior developers",
       "Building a new website for the Hostnfly platform",
@@ -34,9 +34,10 @@ export default function Index() {
           A few words about me
         </h2>
         <p className={"text-md mb-3.5 font-body leading-relaxed"}>
-          Hey ! I am David aka sephi, a Front end developer with more or less
-          ten years of experience. I am currently looking for short missions in
-          Freelance.
+          Greetings! My name is David, also known as sephi. I possess
+          approximately a decade of experience as a front-end developer.
+          Presently, I am in search of freelance opportunities for brief
+          projects.
         </p>
         <p className={"text-md font-body leading-relaxed"}>
           I worked the past couple of years at Hostnfly as a Lead Frontend
